@@ -1,0 +1,53 @@
+/*
+DISPLAY
+A propriedade display é usada para definir como um elemento deve ser exibido na página.
+Os valores mais comuns são:
+    * block: O elemento é exibido como um bloco, ocupando toda a largura disponível.
+    * inline: O elemento é exibido na mesma linha que outros elementos, sem quebrar a linha.
+    * inline-block: O elemento é exibido como um bloco, mas permite que outros elementos sejam exibidos na mesma linha.
+    * none: O elemento não é exibido na página.
+    */
+/*
+DISPLAY BLOCK
+Os elementos de bloco ocupam toda a largura disponível e começam em uma nova linha.
+Exemplo: div, p, h1, h2, h3, h4, h5, h6, ul, ol, li.
+DISPLAY INLINE
+Os elementos inline não iniciam uma nova linha e só ocupam o espaço necessário para seu conteúdo.
+Exemplo: span, a, img, strong, em.
+DISPLAY INLINE-BLOCK
+Os elementos inline-block são exibidos como blocos, mas permitem que outros elementos sejam exibidos na mesma linha.
+DISPLAY NONE
+Os elementos com display none não são exibidos na página e não ocupam espaço.
+/*
+DISPLAY FLEX
+A propriedade display: flex; é usada para criar layouts flexíveis, permitindo que os elementos dentro de um contêiner sejam distribuídos de forma eficiente.
+Exemplo:
+<div class="container">
+    <div class="box"></div>
+    <div class="box02"></div>
+    <div class="box03"></div>                   
+</div>  
+<style>
+DISPLAY INLINE
+.container{
+    display: flex; /*Cria um contêiner flexível*/
+    /*justify-content: center; /*Centraliza os itens horizontalmente*/
+    /*align-items: center; /*Centraliza os itens verticalmente*/
+    /*height: 100vh; /*Define a altura do contêiner para 100% da altura da janela de visualização*/
+
+/*    flex-direction: row; /*Define a direção dos itens como linha (horizontal)*/
+.box{
+    background: #FF1395;
+    height: 50px;
+    width: 50px;
+}
+.box02{
+    background: #00FF00;
+    height: 50px;
+    width: 50px;
+}
+.box03{
+    background: #0000FF;
+    height: 50px;
+    width: 50px;
+}
