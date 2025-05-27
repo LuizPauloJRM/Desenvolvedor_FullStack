@@ -1,0 +1,43 @@
+/*
+Unidade de Medida: px, em, rem, vh, vw, vmin, vmax
+Unidade de Medida: % (porcentagem)
+Unidade de Medida: ch, ex, cm, mm, in, pt, pc
+Unidade de Medida: fr (frações)
+Unidade de Medida: auto, fit-content, min-content, max-content
+Unidade de Medida: calc() (cálculos)
+Unidade de Medida: clamp() (limitação de valores)
+Unidade de Medida: initial, inherit, unset
+Unidade de Medida: revert, revert-layer
+Unidade de Medida: CSS Variables (Custom Properties)
+Absolutas  px , in , cm
+Relativas 
+em  é relativa ao tamanho da fonte do elemento pai
+rem  é relativa ao tamanho da fonte do elemento raiz (html)
+vw viewport width (1vw = 1% da largura da viewport)
+vh viewport height (1vh = 1% da altura da viewport)
+vmin  viewport minimum (1vmin = 1% da menor dimensão da viewport)
+vmax viewport maximum (1vmax = 1% da maior dimensão da viewport)
+
+QUAL USAR?
+ABSOLUTAS: px
+
+
+*/
+
+.vo{
+font-size: 16px; /* Tamanho da fonte do elemento raiz (html) */
+}
+.pai{
+   width: 50vw;/*500 PX , para se adaptar usar relativas*/
+   height: 50vh;
+   background: blue;
+   font-size: 2em;  /* Relativa ao tamanho da fonte do elemento raiz (html) 32 px */
+
+}
+.filho{
+    width: 50%;
+    height: 50%;
+    background: red;
+    font-size: 0.5em;/*Relativa ao tamanho da fonte do elemento pai 16 px*/
+
+}
