@@ -32,10 +32,11 @@
     font-size: 20px;
     text-align: center;
 }
-p {
-     color: blue;
+.segundo-botao,p,#button{
+    color: blue;
     font-size: 16px;
- }
+    color: blue;    
+}
 
 ul {
     color: purple;
