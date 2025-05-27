@@ -1,0 +1,21 @@
+
+*{
+    box-sizing: border-box;/*Sempre mesmo tamanho*/
+    /*contente box sempre crescendo conforme colocando mais elementos*/
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 20px;
+    border:10px solid black; 
+}
+/*BOX SIZING*/
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px;
+    border:10px solid black; 
+    box-sizing: border-box; /*box-sizing: content-box;*/
+}
