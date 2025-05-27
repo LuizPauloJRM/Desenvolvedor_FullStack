@@ -1,0 +1,53 @@
+<!--
+Formulário : Capturar dados de entrada input 
+Action : Onde os dados serão enviados
+Método : Como os dados serão enviados (GET ou POST)
+get : Envia os dados na URL, não é seguro para dados sensíveis
+post : Envia os dados no corpo da requisição, mais seguro para dados sensíveis
+Método get é usado para buscar dados, enquanto o método post é usado para enviar dados.
+
+
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 15 Formulários</title>
+</head>
+
+<body>
+    <h1>Aula 15- Formulários</h1>
+    <h1>Digite seu endereço</h1>
+    <!--get na URL-->
+    <form action="" method="get">
+        <label>Rua:
+            <input type="text" name="rua" />
+        </label>
+
+        <label>Número:
+            <input type="number" name="numero" />
+        </label>
+        <button type="submit">Enviar dados</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+    <!--Método post : Envia não visivel ao usuário , para o servidor -->
+    <form action="" method="post">
+        <label>Rua:
+            <input type="text" name="rua" />
+        </label>
+
+        <label>Número:
+            <input type="number" name="numero" />
+        </label>
+        <button type="submit">Enviar dados</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+
+
+</body>
+
+</html>
