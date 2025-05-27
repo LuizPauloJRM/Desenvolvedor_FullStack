@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+    font-size: 64px;/* Tamanho da fonte */
+    font-family: 'Roboto', sans-serif;/* Importante: Certifique-se de que a fonte 'Roboto' esteja carregada no seu projeto */
+    font-weight: 100;/* Peso 100 é o mais leve, se quiser mais grosso, use 200, 300, etc. até 900 */
+    font-style: italic;/* Estilo itálico */
+    text-align: center;/* Alinhamento do texto */
+
+}
+
+p{
+    color: red;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;/* Alinhamento do texto */
+    line-height: 1.5;/* Espaçamento entre linhas */   
+    text-decoration: underline;/* Sublinhado */
+    text-transform: uppercase;/* Transformação do texto para maiúsculas */
+    letter-spacing: 2px;/* Espaçamento entre letras */
+    word-spacing: 5px;/* Espaçamento entre palavras */
+    margin: 20px;/* Margem ao redor do parágrafo */
+    padding: 10px;/* Preenchimento interno do parágrafo */
+    background-color: #f0f0f0;/* Cor de fundo do parágrafo */
+    border: 1px solid #ccc;/* Borda ao redor do parágrafo */
+    text-decoration: dashed  ; 
+}
