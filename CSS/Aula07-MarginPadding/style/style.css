@@ -1,0 +1,21 @@
+
+/*margin: 10px 50px 30px 5px*/
+/*        top  rigth bottom left*/
+
+.box{
+    width: 50px;
+    height: 50px;
+    background: red;
+    /*margin: 20px;/*margin externo*/
+    margin-bottom: 30px; /*margin inferior*/
+    margin-right: 10px; /*margin direito*/
+    padding: 20px; /*padding interno*/
+}
+
+.box2{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    padding: 30px;/*padding externo*/
+    margin: 50px;
+}
