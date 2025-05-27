@@ -9,25 +9,99 @@
 
 <body>
     <h1>Tipos de inputs</h1>
+    <!-- Campo de texto comum -->
     <input type="text" placeholder="Texto">
+
+    <!-- Campo para senha, os caracteres digitados ficam ocultos -->
     <input type="password" placeholder="Senha">
+
+    <!-- Campo para digitar e validar um e-mail -->
     <input type="email" placeholder="E-mail">
+
+    <!-- Campo para inserir apenas números -->
     <input type="number" placeholder="Número">
+
+    <!-- Campo para escolher uma data (formato calendário) -->
     <input type="date" placeholder="Data">
+
+    <!-- Campo para escolher um horário -->
     <input type="time" placeholder="Hora">
+
+    <!-- Campo para selecionar uma cor (abre seletor de cores) -->
     <input type="color" placeholder="Cor">
+
+    <!-- Caixa de seleção (checkbox), permite marcar/desmarcar -->
     <input type="checkbox" id="check1">
     <label for="check1">Checkbox</label>
+
+    <!-- Botões de opção (radio), permitem selecionar apenas um dentro do mesmo grupo -->
     <input type="radio" id="radio1" name="group1">
     <label for="radio1">Radio 1</label>
     <input type="radio" id="radio2" name="group1">
     <label for="radio2">Radio 2</label>
+
+    <!-- Campo para selecionar um arquivo do computador -->
     <input type="file" placeholder="Arquivo">
+
+    <!-- Campo deslizante (slider) com valores entre 0 e 100 -->
     <input type="range" min="0" max="100" placeholder="Range">
+
+    <!-- Botão que envia o formulário -->
+    <input type="submit" value="Enviar">
+
+    <!-- Botão que reseta/limpa os campos do formulário -->
+    <input type="reset" value="Limpar">
+
+    <!-- Campo oculto, usado para armazenar valores invisíveis ao usuário -->
+    <input type="hidden" value="Valor oculto">
+
+    <!-- Campo para realizar uma pesquisa -->
+    <input type="search" placeholder="Pesquisar">
+
+    <!-- Campo para inserir um número de telefone -->
+    <input type="tel" placeholder="Telefone">
+
+    <!-- Campo para inserir uma URL -->
+    <input type="url" placeholder="URL">
+
+    <!-- Campo para selecionar um mês (ano + mês) -->
+    <input type="month" placeholder="Mês">
+
+    <!-- Campo para selecionar uma semana (ano + semana) -->
+    <input type="week" placeholder="Semana">
+
+    <!-- Campo para selecionar uma data e hora local -->
+    <input type="datetime-local" placeholder="Data e hora local">
+
+    <!-- Input com imagem clicável (pode funcionar como botão de envio) -->
+    <input type="image" src="https://via.placeholder.com/150" alt="Imagem de Input">
+
+    <!-- Outro botão de envio (submit) -->
+    <input type="submit" value="Enviar">
+
+    <!-- Botão comum (sem ação automática, geralmente usado com JavaScript) -->
+    <input type="button" value="Botão">
+
+    <!-- Mais botões de envio e reset para fins de exemplo -->
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar">
-    <input type="hidden" value="Valor oculto">
-    <input type="search" placeholder="Pesquisar">
+
+    <!-- Campo de arquivo com restrição para tipos de imagem -->
+    <input type="file" accept=".jpg, .png, .gif" placeholder="Selecione uma imagem">
+
+    <!-- Campo de texto com autocomplete ativado (sugestões do navegador) -->
+    <input type="text" placeholder="Texto com autocomplete" autocomplete="on">
+
+    <!-- Campo de texto com autocomplete desativado -->
+    <input type="text" placeholder="Texto sem autocomplete" autocomplete="off">
+
+    <!-- Campo de texto com limite máximo de 10 caracteres -->
+    <input type="text" placeholder="Texto com maxlength" maxlength="10">
+
+    <!-- Campo de texto com exigência de no mínimo 5 caracteres -->
+    <input type="text" placeholder="Texto com minlength" minlength="5">
+
+
 
 </body>
 
