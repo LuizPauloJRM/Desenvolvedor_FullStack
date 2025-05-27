@@ -1,0 +1,43 @@
+/*Seletores*/
+*{/*Toda minha página*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Seleciona todos os parágrafos */
+
+/*h1{
+    color: red;
+    font-size: 24px;
+}*/
+#titulo {/*Por id "#" no html foi nomeado por titulo o h1*/
+    color: red;
+    font-size: 24px;
+    text-align: center;
+}
+
+#lista-seletores {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    font-family: Arial, sans-serif; /* Define a fonte da lista */
+    background-color: #000000; /* Cor de fundo da lista */
+}
+/*h2 {
+    color: green;
+    font-size: 20px;
+}*/
+.texto {/*Classe*/
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+     color: blue;
+    font-size: 16px;
+ }
+
+ul {
+    color: purple;
+    font-size: 14px;
+}       
