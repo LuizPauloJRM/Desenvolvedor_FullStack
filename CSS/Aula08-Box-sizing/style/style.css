@@ -1,7 +1,7 @@
 
 *{
     box-sizing: border-box;/*Sempre mesmo tamanho*/
-    /*contente box sempre crescendo conforme colocando mais elementos*/
+    /*content box sempre crescendo conforme colocando mais elementos*/
 }
 .box{
     width: 100px;
