@@ -1,0 +1,25 @@
+h1{
+    /*Comentario css*/
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    background: red;
+}
+p{
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+}
+button{
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
